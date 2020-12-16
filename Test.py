@@ -1,6 +1,6 @@
 import unittest as ut
 import numpy as np
-import Pephon as pt
+import Bruh as pt
 class CalcTest(ut.TestCase):
     def setUp(self):
         self.mk=pt.MyClass()
