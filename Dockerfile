@@ -8,4 +8,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 RUN python ./Test.py
 
-CMD [ "python", "./Test.py" ]
+CMD [ "python", "./Pephon.py" ]
