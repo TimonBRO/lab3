@@ -6,6 +6,6 @@ COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
-RUN python ./TestProgr.py
+RUN python ./Test.py
 
-CMD [ "python", "./Bruh.py" ]
+CMD [ "python", "./Pephon.py" ]
